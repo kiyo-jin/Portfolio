@@ -18,7 +18,7 @@ export default function Home() {
       />
       <Profile />
 
-      <ViewMore to="/profile"/>
+      <ViewMore to="/profile" />
 
       <Image
         src="/images/wave_line.svg"
@@ -35,7 +35,7 @@ export default function Home() {
           altText="works1"
           description="テキスト"
           linkUrl="/work1"
-          visibleTags={["JavaScript", "TypeScript"]}
+          visibleTags={["HTML/CSS", "TypeScript"]}
         />
         <WorkSection
           imageUrl="/images/works.svg"
@@ -59,8 +59,7 @@ export default function Home() {
           visibleTags={["JavaScript", "TypeScript"]}
         />
       </div>
-      <ViewMore to="/works"/>
-
+      <ViewMore to="/works" />
     </div>
   );
 }
